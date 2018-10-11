@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-- "10.11.0"
+  - 10.11.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: MCuPEIz7sN5AEL5e5hUT0iUbpfNwodEamr05q/uHO33v/qgxsIDpBLOrSLLYC7sm1ujRCbC6x+mAowybmNsBFhud+edT5nKGlmb8rVaCvb/RsMCvh5hpUk+8Y6zT/Lnxo5FTZo6JUE3Z2CcqBONS3wdpHEVC6gGDyqOyLc9Uuy25tFJEo+weZOPUsTQAOaiH+JNMV1+irYvBq516FRGRbL7o7A9qDXocm0GcNuNpi0h6SFcrNcMP1+btL/CORFOpJbldJpStj/K4e/bnHyJzwXdkSRQy8J/+dMkyzgqlLG/L6tUiLyLRP3Yi1xqQoXqy8HaqwB6qHRN+zhjUI9FQmE5t8Lk2eGY3RFXQKrxr67Ie5CRQXIimi3JsAJ1X+czASLn7o2Ueli6BadxS3RGBkc8a/a2JvfSI2hPzdJumPYVY8C7EEnDLwd6ymyIoa4I29ThtVXElD2Jj+Mvy8nMtuGhIGl2ROWlqGIESbL7Ddb++NefAhTFbcynbDm0bDLCdQ20tG5zA6E/qA0ijFSUgQjE+8mrDpUsyoGT4fSlcKZGU3n7t1gH00zwuIevtJlpMzAIz77TaOfd1fUId1Vozh0aXbvQ7BUHMdnFMEEuByPuucqwZslmJqyq8SFgN4u1csEvqtt3z8gH1gfdhU5NjC1FZg+exOaX6y5r547gSrsA=
+  app:
+    master: gobelins-lead-tech
+    develop: gobelins-lead-tech-staging
